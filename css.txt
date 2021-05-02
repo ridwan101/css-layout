@@ -1,0 +1,143 @@
+header, 
+footer{
+    display: block;
+    text-align: center;
+    
+
+}
+
+h1{
+    font-size: 55px;
+    text-align: center;
+}
+body{
+    line-height: 1;
+    margin: 0;
+
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container{
+    background-color: gray;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+p{
+    font-size: 20px;
+    line-height: 1.2;
+}
+article p{
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+*{
+    box-sizing: border-box;
+}
+...................................................................................
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Css Website </title>
+        <link rel="stylesheet" href="labtask1.css">
+    </head>
+    <body>
+        <div class="container" id="section1">
+       
+        <div class="abc">
+            <header><h1>Header</h1></header>
+
+        </div>
+        </div>
+        
+       
+            <div class="row">
+                <div class="col-3 abc">
+                    <h1>nav bar</h1>
+
+                </div>
+                
+
+                <div class="col-9 abc">
+                   <h1>Content</h1>
+                   <div class="row">
+                       <div class="col-4">
+                           <img src="hore.jpg" alt="image">
+                       </div>
+                       <div class="col-8">
+                           <article> <p>
+                            A horse is a good-looking animal. The mane on its neck, 
+                            its glossy skin and the symmetrical shape of the body –
+                             all make it fine animal.
+                            It is a strong, healthy and tall animal. It has four legs,
+                            two eyes, two ears and a bushy tail. Horses are of different
+                             colors, sizes, and shapes. It may be of red, brown, grey, 
+                             black and white, and a mixture of such colors.
+                            
+                            Its body is covered with short glossy hair. Its hoofs are 
+                            hard and solid. Horses eat grass, oats, gram, leaves, food-
+                            grains and other vegetables.
+                            
+                            Where found? Horse is found in almost all countries. 
+                            The Arabian variety is very handsome. English and Australian 
+                            horses are of great use in races. The Burma ponies are very small animals. 
+                            It can move along at a rapid rate. Its hoofs are well adapted to rough roads. 
+                            Its food consists of grass, gram, oats, and other vegetables.
+                           </p>
+                        </article>
+                       </div>
+                      
+                   </div>
+                   <div>
+                       <article>
+                       <p> Where found? Horse is found in almost all countries. The Arabian variety is very 
+                        handsome. English and Australian horses are of great 
+                        use in races. The Burma ponies are very small animals. It 
+                        can move along at a rapid rate. Its hoofs are well adapted to
+                         rough roads. Its food consists of grass, gram, oats, and other vegetables.
+                         Horses are noted for their faithfulness, strength, agility and gentleness and are of 
+                         immense service to man. The horse saves its master’s life even at the cost of its own 
+                         life. The story of Rana Pratap Singh’s famous war-horse ‘Chaitak’ is a typical example
+                          of the faithfulness of horses.</p>
+                       </article>
+                   </div>
+
+                   <div class="abc container">
+
+                    <footer>
+                        <h1>Footer</h1>
+                    </footer>
+                   </div>
+                   
+
+
+                </div>
+
+            </div>
+        
+    </body>
+</html>
